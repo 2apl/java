@@ -9,7 +9,7 @@ public class Whether {
         int days = scanner.nextInt();
         precipitation(days);
 
-        }
+    }
 
     public static void precipitation(int days) {
         int some = 0, max = 0, sum = 0;
@@ -23,8 +23,8 @@ public class Whether {
                 max = value;
             }
             some = value;
-            if (i == days){
-                medium = (float) sum/i;
+            if (i == days) {
+                medium = (float) sum / i;
                 System.out.println("Статистика за " + days + " дней");
                 System.out.println("Сумма осадков за этот период: " + sum);
                 System.out.println("Среднее количество осадков за этот период: " + medium);
