@@ -4,6 +4,6 @@ public class Text {
 
     public static void main(String[] args) {
         String text = "Hi. I am a programmer on java language. Java is the best language for a programmer.";
-        System.out.println(TextWord.verbsInText(text));
+        System.out.println(TextWord.wordsInText(text));
     }
 }
